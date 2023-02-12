@@ -1,15 +1,10 @@
 #!/usr/bin/python3
 """
-Defines the State class
+This is state class represents new states
 """
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """Represent a state
-
-    Attributes:
-        name (str): The name of the state
-
-    """
+    """ State subclass that inherits from BaseModel """
     name = ""

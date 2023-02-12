@@ -1,15 +1,10 @@
 #!/usr/bin/python3
 """
-Module for Amenity class
+This is amenity class that represents new amenities
 """
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """Custom amenity class
-
-    Attributes:
-        name(str): amenity name
-
-    """
+    """ Amenity subclass that inherits from BaseModel """
     name = ""
